@@ -1,0 +1,12 @@
+.register{
+  display: flex;
+  flex-direction: column;
+  .form{
+    display: flex;
+    justify-content: space-evenly;
+    .left{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
