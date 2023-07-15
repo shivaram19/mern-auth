@@ -41,14 +41,14 @@ const Register = () => {
             <input
               name="username"
               type="text"
-              placeholder="johndoe"
+              placeholder="username"
               onChange={handleChange}
             />
             <label htmlFor="">Email</label>
             <input
               name="email"
               type="email"
-              placeholder="email"
+              placeholder="Enter your Email address"
               onChange={handleChange}
             />
             <label htmlFor="">Date of Birth</label>
@@ -63,7 +63,7 @@ const Register = () => {
             <input
               name="college"
               type="text"
-              placeholder="IITM"
+              placeholder="Enter your College name"
               onChange={handleChange}
             />
             <button type="submit">Register</button>
@@ -76,3 +76,4 @@ const Register = () => {
 export default Register
             
       
+// 9630
